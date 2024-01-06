@@ -1,0 +1,21 @@
+.my-img{
+    border-radius: 50%;
+    width: 200px;
+
+}
+.background{
+    background-color: rgb(230, 218, 171);
+}
+.form-group,label
+{
+    text-align: left;
+}
+#cv-template
+{
+    display: none;
+}
+.text-secondary
+{
+text-align: left;
+}
+  

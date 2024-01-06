@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.resource-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.resource-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.resource-card h2 {
+    color: #3498db;
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Add a subtle gradient background to the resource cards */
+.resource-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #3498db, #e74c3c);
+    opacity: 0.5;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.resource-card p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.resource-card a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.resource-card a:hover {
+    color: #e74c3c;
+}
+
+.flex-contaniner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.flex-box{
+    height: 200px;
+    width: 430px;
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8);
+    background-color:#ADD8E6;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.flex-box a{
+    color: black;
+    font-size: 40px;
+}
+

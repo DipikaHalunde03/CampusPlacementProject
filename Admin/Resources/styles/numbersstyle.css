@@ -1,0 +1,225 @@
+h1{
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+    font-size:40px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    font-family:Times New Roman;
+}
+.pdfsection{
+	 background-color: ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+.circle{
+	width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px; 
+}
+
+.circle img{
+	max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+h2{
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 850px;
+    padding: 30px;
+    text-align: center;
+    display: none;
+}
+
+.container h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.container .question {
+    font-size: 26px;
+    margin-top: 20px;
+    text-align: left; /* Justify text to the right */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: black;
+}
+
+.container .choices {
+    margin-top: 20px;
+}
+
+.choice {
+    font-size: 20px;
+    background-color: #eee;
+    color: black;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    width: 60%;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(50%);
+    animation: fade-in 0.5s ease forwards;
+}
+
+.choice:hover{
+    background-color: #ddd;
+}
+
+.choice.selected{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    margin: 20px auto 0 auto;
+    background-color: #006400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #08780c;
+}
+
+.scoreCard{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.alert{
+    background-color: #5d9b63;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.startBtn{
+    width: 15%;
+    padding-block: 20px;
+    text-align: center;
+    margin-block: -20px;
+    top: 20px;
+}
+
+.timer{
+    position: absolute;
+    top: 500px;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: #007bff;
+    bottom: 20px;
+    border: 2px solid #f00;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: pulse 1s ease-in-out infinite;
+}
+
+/* Adding Animation to Timer */
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/* Adding Animation to choices */
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width:900px){
+    .container {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .container h1{
+        font-size: 24px;
+    }
+    .container .question{
+        font-size: 15px;
+    }
+
+    .timer{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .startBtn{
+        width: 50%;
+    }
+}
+.quize{
+    align-content: center;
+     width: 100%;
+    height: 100vh;
+    background: white;
+    color: black;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bts{
+    margin-top: 10px;
+    height: 15px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-bottom: 30px;   
+}

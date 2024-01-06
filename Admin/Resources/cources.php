@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+    <h1>Placement Preparation Resources</h1>
+    <div class="resource-card" id="mock-tests">
+        <a href="mocktest.html"><h2>Mock Tests</h2></a>
+      
+    </div>
+    <div class="resource-card" id="aptitude-preparation">
+        <a href="apti.html"><h2>Aptitude Preparation</h2></a>
+        
+    </div>
+    <div class="resource-card" id="coding-questions">
+        <a href="quize/index.html"><h2>Coding Questions</h2></a>
+       
+    </div>
+    <div class="resource-card" id="quizzes">
+        <a href="mocktest.html"><h2>Quizzes</h2></a>
+    </div>
+
+
+    <div class="resource-card" id="coding-questions">
+        <a href="newmini/interview.html"><h2>Interview Preparation</h2></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

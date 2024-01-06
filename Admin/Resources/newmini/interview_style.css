@@ -1,0 +1,106 @@
+.head{
+    height: 550px;
+    width: 100%;
+    background-color:hsl(0, 0%, 94%) ;
+  
+
+}
+.cta-button{
+
+        color: aliceblue; 
+        background-color:hsl(19, 100%, 50%);
+    
+}
+
+h1{
+font-family: proxima-nova,"helvetica","arial",sans-serif;
+font-size: 50px;
+color: #424344;
+text-align: center;
+}
+p{
+float: inline-end;
+color: #4b4a4a;
+font-size: 25px;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-left: 5px;
+
+}
+.img1,img{
+height: 300px;
+width: 550px;
+float: left;
+border-radius: 25px;
+border: 7px; 
+
+
+}
+.img2,img{
+width: 1200px;
+height: 600px;
+float: inline-end;
+margin-left: 20px;
+margin-top: 10px;
+align-content: center;
+}
+.content_list,p
+{
+margin-left: 0;
+margin-bottom: 20px;
+
+}
+
+
+.container {
+margin-top: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+margin: 00 auto;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 0;
+}
+
+.card {
+width: 20%;
+text-align: center;
+margin: 0 10px;
+border: 1px solid black;
+padding: 20px;
+background-color: rgb(250, 250, 183);
+margin-left: 0;
+margin-left: auto;
+}
+
+.card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.card h3 {
+font-size: 18px;
+margin: 10px 0;
+}
+
+.card p {
+font-size: 14px;
+text-align: justify;
+}
+
+.card a {
+text-decoration: none;
+color: inherit;
+}
+.container
+{
+
+}
+
+

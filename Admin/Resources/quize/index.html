@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coding Questions</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS for styling */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Adjust this based on your layout needs */
+    align-items: center;
+    background-color: #ee972d;
+}
+
+.centered-text {
+    margin: 0; /* Reset margin if necessary */
+    text-align: center;
+    
+    flex: 1; /* Takes remaining space, centering the text */
+}
+
+        .navbar h2{
+            text-align: center;
+
+        }
+        
+        .container_left img {
+            margin-top: 60px;
+            width: 400px;
+            height: 300px;
+        }
+        .container_left p {
+            margin-top: 60px;
+            width: 400px;
+            text-align: justify;
+            
+        }  
+       
+        .container_right  {
+            margin-top: 60px;
+            width: 500px;
+            height: 70px;
+            text-align: center;
+            background-color: rgb(227, 142, 222);
+            border: 2px solid #b365b3;
+            
+        }  
+        .btn-container {
+            margin-top: 80px;
+        }
+
+        /* Style for the buttons */
+        .btn-container .btn {
+             margin-bottom: 10px; /* To add space between buttons */
+             width: 260px;
+             height: 40;
+             text-align: center;
+        }
+        
+
+       
+    </style>
+
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <button class="btn btn-light">
+
+            <a href="../cources.php">Back</a></button>
+        <h2 class="centered-text">Coding Questions</h2>
+    </nav>
+    
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="container_left">
+                    <img src="img1.jpg" alt="Image description">
+                    <br><br>
+                    
+                     <p> 
+                        <h2>What are snippets?</h2>
+                        * Code snippets are small blocks of reusable code that you can add to a code file by using the right-click context menu command or a combination of hotkeys.<br> 
+                        * Code snippets typically contain often-used code blocks such as try-finally or if-else blocks, but you can also use them to add entire classes or methods.
+                     </p>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="container_right">
+                    <h1>Attempt Quiz</h1>
+
+                    <div class="btn-container">
+                        <div class="btn">
+                            <button class="btn btn-primary mr-2" onclick="window.location.href='level1.html'">Low Level</button><br>
+                            <button class="btn btn-primary mr-2">Medium Level</button><br>
+                            <button class="btn btn-primary">High Level</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
